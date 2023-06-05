@@ -1,0 +1,37 @@
+{
+  "name": "puppeteer-wrapper",
+  "version": "1.0.0",
+  "description": "A better scraping API.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Destruct-Portfolio/puppeteer-wrapper"
+  },
+  "bugs": {
+    "url": "https://github.com/Destruct-Portfolio/puppeteer-wrapper/issues"
+  },
+  "homepage": "https://github.com/Destruct-Portfolio/puppeteer-wrapper#readme",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "npm run prebuild && tsc",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "puppeteer",
+    "scraping",
+    "wrapper"
+  ],
+  "author": "Destruct<destruct.space@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@destruct/logger": "^1.0.1",
+    "crawlee": "^3.3.3",
+    "puppeteer": "*",
+    "rimraf": "^5.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
+}
