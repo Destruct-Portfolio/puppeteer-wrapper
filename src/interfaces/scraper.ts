@@ -1,5 +1,5 @@
 import { Page } from "puppeteer";
-import { AsyncMethod } from "./shared"
+import { AsyncMethod } from "./shared.js"
 import { Log } from "crawlee";
 import { Logger } from "@destruct/logger";
 

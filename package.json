@@ -1,6 +1,6 @@
 {
   "name": "@destruct/puppeteer-wrapper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A better scraping API.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

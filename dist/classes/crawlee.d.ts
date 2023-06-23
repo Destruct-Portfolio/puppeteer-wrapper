@@ -1,6 +1,6 @@
 import { Page } from "puppeteer";
 import { Log } from "crawlee";
-import { EnhancedPuppeteerI, ScraperConfigT, SelectorT } from "../interfaces/scraper";
+import { EnhancedPuppeteerI, ScraperConfigT, SelectorT } from "../interfaces/scraper.js";
 export declare class EnhancedPuppeteerForCrawlee implements EnhancedPuppeteerI {
     page: Page;
     logger: Log;

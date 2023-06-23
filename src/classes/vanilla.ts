@@ -1,5 +1,5 @@
 import { Page } from "puppeteer";
-import { EnhancedPuppeteerI, SelectorT } from "../interfaces/scraper";
+import { EnhancedPuppeteerI, SelectorT } from "../interfaces/scraper.js";
 import { Logger } from "@destruct/logger";
 
 

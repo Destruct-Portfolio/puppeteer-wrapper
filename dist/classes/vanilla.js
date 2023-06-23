@@ -1,7 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.EnhancedPuppeteer = void 0;
-class EnhancedPuppeteer {
+export class EnhancedPuppeteer {
     page;
     logger;
     constructor(config) {
@@ -182,4 +179,3 @@ class EnhancedPuppeteer {
         await this.click({ selector: login_selector });
     }
 }
-exports.EnhancedPuppeteer = EnhancedPuppeteer;
